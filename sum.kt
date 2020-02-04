@@ -3,6 +3,11 @@ fun sum(a: Int,b: Int): Int{
 }
 
 fun main(){
-    print("Sum of 3 and 5 is ")
-    print(sum(3,5))
+    println("Enter 1st Number = ")
+    var first = readLine()
+    val mfirst: Int = first!!.toInt()
+    println("Enter 2nd Number = ")
+    var second = readLine()
+    val msecond: Int = second!!.toInt()
+    println(sum(mfirst,msecond)))
 }
