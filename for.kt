@@ -1,9 +1,7 @@
 fun main(args: Array<String>) {
-    
-    // use .. to create a range
-    // use step keyword to skip elements in any range
-    for (i in 1..10 step 3) {
+
+    // use downTo keyword to iterate any backward range. If .. will be used instead of downTo, it will print nothing.
+    for (i in 10 downTo 1) {
         print("$i ")
     }
 }
-
