@@ -1,7 +1,8 @@
 fun main(args: Array<String>) {
 
-    // use downTo keyword to iterate any backward range. If .. will be used instead of downTo, it will print nothing.
-    for (i in 10 downTo 1) {
-        print("$i ")
-    }
+    var planets = arrayOf("Earth", "Mars", "Venus", "Jupiter", "Saturn")
+    // indices keyword is used to get the range/index values of any array.
+    for (i in planets.indices) {
+        println("Element")
 }
+    
